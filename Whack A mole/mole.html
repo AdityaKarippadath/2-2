@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whack-a-Mole Game</title>
+    <link rel="stylesheet" href="mole.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎯 Whack-a-Mole</h1>
+
+        <div class="info">
+            <p>Score: <span id="score">0</span></p>
+            <p>Time Left: <span id="time">30</span>s</p>
+        </div>
+
+        <div class="grid" id="grid">
+            <!-- 9 squares -->
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <script src="mole.js"></script>
+</body>
+</html>
