@@ -5,7 +5,6 @@ function updateClock() {
     let minutes = now.getMinutes();
     let seconds = now.getSeconds();
 
-    // Add leading zero if needed
     hours = hours < 10 ? "0" + hours : hours;
     minutes = minutes < 10 ? "0" + minutes : minutes;
     seconds = seconds < 10 ? "0" + seconds : seconds;
@@ -14,8 +13,6 @@ function updateClock() {
     document.getElementById("time").textContent = currentTime;
 }
 
-// Update clock immediately
 updateClock();
 
-// Update every second
 setInterval(updateClock, 1000);

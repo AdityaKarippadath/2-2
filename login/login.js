@@ -15,5 +15,5 @@ function validateForm() {
 
     error.textContent = "Login successful!";
     error.style.color = "green";
-    return false; // prevent actual submission for demo
+    return false; 
 }

@@ -11,7 +11,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Calculator container */
 .calculator {
     background: #111;
     padding: 25px;
@@ -19,7 +18,6 @@ body {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
 }
 
-/* Display screen */
 #display {
     width: 100%;
     height: 55px;
@@ -33,14 +31,12 @@ body {
     color: #00ffcc;
 }
 
-/* Button grid */
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 65px);
     gap: 12px;
 }
 
-/* Buttons */
 button {
     height: 55px;
     font-size: 18px;
@@ -61,12 +57,10 @@ button:active {
     transform: scale(0.95);
 }
 
-/* Zero button */
 .zero {
     grid-column: span 2;
 }
 
-/* Optional: operator buttons */
 button:nth-child(1),
 button:nth-child(2),
 button:nth-child(3),
