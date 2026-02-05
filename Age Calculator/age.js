@@ -13,7 +13,6 @@ function calculateAge() {
     let months = today.getMonth() - birthDateObj.getMonth();
     let days = today.getDate() - birthDateObj.getDate();
 
-    // Adjust days and months if negative
     if (days < 0) {
         months--;
         const previousMonth = new Date(today.getFullYear(), today.getMonth(), 0);
